@@ -11,8 +11,8 @@
 // let anotherId = Symbol('12345');
 // console.log(id === anotherId);
 
-// let bigNumber = 7983499388n;
-// console.log(typeof bigNumber);
+let bigNumber = 7983499388n;
+console.log(typeof bigNumber);
 
 // Reference (Non-Primitive)
 // Array, Objects, Functions
@@ -30,3 +30,4 @@ let myFunction = function() {
 }
 
 myFunction();
+console.log(typeof myFunction);
