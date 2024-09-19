@@ -31,3 +31,24 @@ let myFunction = function() {
 
 myFunction();
 console.log(typeof myFunction);
+
+
+//Stack (primitive)   And Heap (Non primitive)
+
+let myYoutubename="MithleshStudyCentre"
+let anothername=myYoutubename
+anothername="study centre"
+console.log(myYoutubename);
+console.log(anothername);
+
+
+let userone={
+    email:"user@google.com",
+    upi:"user@ybl"
+}
+
+let userTwo=userone
+userTwo.email="mithleshbxr95@gmail.com"
+console.log(userone.email);
+console.log(userTwo.email);
+
